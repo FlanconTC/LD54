@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3675103014709754463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3675103014709754433}
+  - component: {fileID: 3675103014709754462}
+  m_Layer: 0
+  m_Name: BoxSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3675103014709754433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675103014709754463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 3.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3675103014709754462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675103014709754463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6209152b38de44458cca09b5a4492c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxPrefabs:
+  - {fileID: 4289600524362513722, guid: 7060ff1d1d944fb4d98f4b536680bb26, type: 3}
+  - {fileID: 8741143089483339497, guid: e3ee5ab8eed42a847a8275064038bdf9, type: 3}
+  - {fileID: 1862299015461488351, guid: 44b924476b5968941b7a9d63d77d7b9f, type: 3}
+  - {fileID: 8586843430040689126, guid: 657b845a5d5032c4993bcb6207f075f4, type: 3}
+  - {fileID: 6196316309759191617, guid: 63c9498a90606834ebd8e024414475bc, type: 3}
+  - {fileID: 3439053281264329718, guid: 8273baf1147235e4f8921a7c9b89b73f, type: 3}
+  - {fileID: 8587252291180351864, guid: a5f352ca3166a3a40b079a1a114b4fc7, type: 3}
+  - {fileID: 6761529644562224576, guid: e74a6934fa887fd41a9d44e9bc61c8ec, type: 3}
+  - {fileID: 8733549811261884537, guid: 03ac30eb964912046a085e9f7175e8c6, type: 3}
+  numberOfBoxes: 1
+  spawnRadius: 1
